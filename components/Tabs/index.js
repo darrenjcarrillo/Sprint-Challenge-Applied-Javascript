@@ -13,7 +13,7 @@ function newTab(object) {
 
   tab.classList.add("tab");
 
-  tab.textContent = `${object}`;
+  tab.textContent = object;
 
   return tab;
 }
